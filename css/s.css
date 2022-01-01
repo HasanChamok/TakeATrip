@@ -1,0 +1,319 @@
+a {
+      text-decoration:none;
+   }
+
+.index_upper .container{
+	
+	background: url("../images/hill1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	height:80px;
+	
+	
+	 
+	
+}
+.index_upper .container  .upper_menu .home_logo {
+	
+	width:98px;
+	padding-right:5px
+	 
+
+	
+}
+ 
+ .index_upper .container  .upper_menu  {
+	
+	padding-top:8px;
+	
+	 
+
+	
+}
+ 
+
+
+.index_upper .container  .upper_menu li {
+	
+	display: inline-block;
+	text-align:center;
+	
+	padding-top:2px;
+	position:relative;
+    
+    font-weight: bold;
+	
+	
+}
+.index_upper .container  .upper_menu .search_bar{
+	 width:450px; 
+	 margin-right:200px;
+	 
+ }
+.index_upper .container  .upper_menu .menu::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	height: 3px;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	 
+
+}	
+
+.index_upper .container  .upper_menu .menu:hover::after {
+	
+	
+	width: 100%;
+	transition: width;
+	 
+	 
+	 
+
+}	
+	
+.index_upper .container  .upper_menu .menu:hover #menutext {
+	
+    font-weight:800;
+	font-size: 20px;
+	
+	 
+
+}
+	
+
+ .index_upper .container  .upper_menu .contact_bar::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	height: 3px;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+
+}	
+
+.index_upper .container  .upper_menu .contact_bar:hover::after {
+	
+	
+	width: 100%;
+	transition: width 
+
+}	
+
+.index_upper .container  .upper_menu .contact_bar:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+ .index_upper .container  .upper_menu .sign_in::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	height: 3px;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+
+}	
+
+.index_upper .container  .upper_menu .sign_in:hover::after {
+	
+	
+	width: 100%;
+	transition: width 
+
+}	
+
+.index_upper .container  .upper_menu .sign_in:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+.index_upper .container  .upper_menu .sign_out:hover {
+	
+	
+	transform:scale(1.2);
+
+}	
+
+.index_upper .container  .upper_menu .sign_out{
+	
+    
+  transition: 0.5s ease;
+  cursor: pointer;
+ 
+
+}
+.index_upper .container  .upper_menu .home_logo:hover {
+	
+	
+	transform:scale(1.1);
+
+}	
+
+.index_upper .container  .upper_menu .home_logo{
+	
+    
+  transition: 0.5s ease;
+  cursor: pointer;
+ 
+
+}
+
+
+ 
+ .index_upper .container  .upper_menu .menu .sub_menu{
+	 display: none;
+ }
+ 
+ .index_upper .container  .upper_menu .menu:hover .sub_menu{
+	 
+	 display:block;
+	 position:absolute;
+	background: url("../images/hill1.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	z-index: 100;
+	
+   
+	  
+ 
+	 
+ }
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul li{
+	 
+
+	margin-left:-30px;
+	  
+	 
+	 
+	 
+ }
+ 	
+ 
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .films h6::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	height: 3px;
+
+}	
+  
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .films h6:hover::after {
+	
+	width: 100%;
+	transition: width;
+	 
+
+}	
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .films:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+ 
+ 
+  .index_upper .container  .upper_menu .menu:hover .sub_menu ul .about_us h6::after {
+	
+    content: ' ';
+	display:block;
+	width: 0;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	height: 3px;
+
+}	
+  
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .about_us h6:hover::after {
+	
+	width: 100%;
+	transition: width;
+	 
+
+}	
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .about_us:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .team h6::after {
+	
+    content: ' ';
+	display:block;
+	width: 0;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	height: 3px;
+
+}	
+  
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .team h6:hover::after {
+	
+	width: 100%;
+	transition: width;
+	 
+
+}	
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .team:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
+
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .contact_us_bar h6::after {
+	
+	content: ' ';
+	display:block;
+	width: 0;
+	background: #fff;
+	transition: width .3s;
+	margin-top:8px;
+	height: 3px;
+
+}	
+  
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .contact_us_bar h6:hover::after {
+	
+	width: 100%;
+	transition: width;
+	 
+
+}	
+
+ .index_upper .container  .upper_menu .menu:hover .sub_menu ul .contact_us_bar:hover h6 {
+	
+    font-weight:800;
+	font-size: 20px;
+	 
+
+}
